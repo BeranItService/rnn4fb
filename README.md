@@ -7,10 +7,12 @@ The tutorial is very well written check the page out.
 
 This project is broken into two parts:
 1) Processing of raw data
+
 2) Building of RNN structure and training the RNN
 
 
 1. Processing of raw data
+
 Before you can do anything fancy with the data, you need to get the data and make it usable.
 I didn't come up with any fancy schmanzy way of mining data from facebook. To get a copy of
 your own personal posts from facebook, goto settings>general>Download a copy of your Facebook data
