@@ -1,7 +1,7 @@
 """
-1) Extracts <div class = "comments"> tags in the data extracted from facebook.
-2) Extracts the sentences
-3) Transfers the sentences
+1) extract_data: Extracts <div class = "comments"> tags in the data extracted from facebook.
+2) process_txt: Extracts the sentences 
+3) write_file: Transfers the sentences to a csv file default file name is "FBextract.csv"
 
 """
 
@@ -13,7 +13,8 @@ import time
 import nltk.data
 from bs4 import BeautifulSoup
 
-
+#Specify location of timeline.htm file here
+fb_data = './Data/html/timeline.htm'
 
 def extract_data(input_file):
     """
@@ -92,7 +93,6 @@ def write_file(data, output_file = "FBextract.csv"):
 
 
 if __name__ == "__main__":
-    fb_data = './Data/html/timeline.htm'
     extracted_data = extract_data(fb_data)
     processed_data = process_txt(extracted_data)
     write_file(extracted_data)
