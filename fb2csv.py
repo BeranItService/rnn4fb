@@ -13,7 +13,7 @@ import time
 import nltk.data
 from bs4 import BeautifulSoup
 
-
+fb_data = './Data/timeline.htm'
 
 def extract_data(input_file):
     """
@@ -92,7 +92,7 @@ def write_file(data, output_file = "FBextract.csv"):
 
 
 if __name__ == "__main__":
-    fb_data = './Data/html/timeline.htm'
+
     extracted_data = extract_data(fb_data)
     processed_data = process_txt(extracted_data)
     write_file(extracted_data)
