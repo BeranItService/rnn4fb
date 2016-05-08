@@ -3,12 +3,16 @@ A RNN text generator that trains on Facebook posts.
 
 Inspired by the RNN tutorial found on http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
 
+
 The tutorial is very well written check the page out. 
 
-This project is broken into two parts:
-1) Processing of raw data
 
-2) Building of RNN structure and training the RNN
+This project is broken into two parts:
+
+	1) Processing of raw data
+	
+	2) Building of RNN structure and training the RNN
+
 
 
 1. Processing of raw data
