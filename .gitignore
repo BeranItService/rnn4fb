@@ -60,3 +60,7 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# FBdata
+home/ada/PycharmProjects/rnn4fb/Data
+home/ada/PycharmProjects/rnn4fb/FBextract.csv
